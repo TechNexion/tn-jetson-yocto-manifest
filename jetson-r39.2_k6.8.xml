@@ -4,8 +4,14 @@
   <default upstream="wrynose" sync-j="4" />
 
   <remote name="oe4t"        fetch="https://github.com/OE4T"/>
+  <remote name="tn-bsp"      fetch="https://github.com/TechNexion"/>
 
   <project name="tegra-demo-distro"    remote="oe4t" path="." revision="4101d58419cfaef961158c2cff1fd47bb199fc5b" />
+
+  <!-- TechNexion repository -->
+  <project name="meta-tn-jetson-bsp"   remote="tn-bsp" path="layers/meta-tn-jetson-bsp" revision="tn_l4t-r39.2.ga_kernel-6.8">
+    <linkfile src="tools/tn-setup-env" dest="tn-setup-env" />
+  </project>
 
 
 </manifest>
