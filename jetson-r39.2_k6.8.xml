@@ -12,6 +12,6 @@
   <project name="meta-tn-jetson-bsp"   remote="tn-bsp" path="layers/meta-tn-jetson-bsp" revision="tn_l4t-r39.2.ga_kernel-6.8">
     <linkfile src="tools/tn-setup-env" dest="tn-setup-env" />
   </project>
-
+  <project name="meta-tn-vizionsdk"    remote="tn-bsp" path="layers/meta-tn-vizionsdk" revision="wrynose_6.18.y" />
 
 </manifest>
