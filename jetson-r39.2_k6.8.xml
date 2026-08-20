@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default revision="wrynose" sync-j="4" />
+  <default upstream="wrynose" sync-j="4" />
 
   <remote name="oe4t"        fetch="https://github.com/OE4T"/>
 
-  <project name="tegra-demo-distro"    remote="oe4t" path="." />
+  <project name="tegra-demo-distro"    remote="oe4t" path="." revision="4101d58419cfaef961158c2cff1fd47bb199fc5b" />
 
 
 </manifest>
